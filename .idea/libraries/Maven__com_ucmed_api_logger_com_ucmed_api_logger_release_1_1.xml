@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ucmed.api.logger:com.ucmed.api.logger:release:1.1">
+    <CLASSES>
+      <root url="jar://D:/maven/maven_lib/com/ucmed/api/logger/com.ucmed.api.logger/1.1/com.ucmed.api.logger-1.1-release.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven/maven_lib/com/ucmed/api/logger/com.ucmed.api.logger/1.1/com.ucmed.api.logger-1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/maven/maven_lib/com/ucmed/api/logger/com.ucmed.api.logger/1.1/com.ucmed.api.logger-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

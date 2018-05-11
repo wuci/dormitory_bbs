@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ucmed.service.invoker:com.ucmed.service.invoker:1.0.01">
+    <CLASSES>
+      <root url="jar://D:/maven/maven_lib/com/ucmed/service/invoker/com.ucmed.service.invoker/1.0.01/com.ucmed.service.invoker-1.0.01.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven/maven_lib/com/ucmed/service/invoker/com.ucmed.service.invoker/1.0.01/com.ucmed.service.invoker-1.0.01-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/maven/maven_lib/com/ucmed/service/invoker/com.ucmed.service.invoker/1.0.01/com.ucmed.service.invoker-1.0.01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
