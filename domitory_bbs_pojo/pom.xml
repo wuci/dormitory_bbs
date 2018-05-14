@@ -11,14 +11,6 @@
     <packaging>jar</packaging>
     <artifactId>bbs_dormitory_pojo</artifactId>
     <name>bbs_dormitory_pojo</name>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
 
 </project>

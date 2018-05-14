@@ -1,6 +1,7 @@
 package com.bbs.domitory.service;
 
 import com.bbs.domitory.pojo.TbItem;
+import com.bbs.domitory.pojo.common.EasyUiResultParams;
 
 /**
  * @author:wuci
@@ -10,8 +11,16 @@ import com.bbs.domitory.pojo.TbItem;
 public interface ItemService {
     /**
      * 通过itemId获取Item
+     *
      * @param itemId
      * @return
      */
     TbItem getItemById(long itemId);
+
+    /**
+     * @param page
+     * @param rows
+     * @return
+     */
+    EasyUiResultParams getItemList(int page, int rows);
 }
