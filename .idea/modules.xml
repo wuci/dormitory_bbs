@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bbs_dormitory.iml" filepath="$PROJECT_DIR$/bbs_dormitory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domitory_bbs_pojo/bbs_dormitory_pojo.iml" filepath="$PROJECT_DIR$/domitory_bbs_pojo/bbs_dormitory_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/bbs_dormitory_service/bbs_dormitory_service.iml" filepath="$PROJECT_DIR$/bbs_dormitory_service/bbs_dormitory_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/bbs_dormitory_util/bbs_dormitory_util.iml" filepath="$PROJECT_DIR$/bbs_dormitory_util/bbs_dormitory_util.iml" />
       <module fileurl="file://$PROJECT_DIR$/bbs_dormitory_web/bbs_dormitory_web.iml" filepath="$PROJECT_DIR$/bbs_dormitory_web/bbs_dormitory_web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domitory_bbs_pojo/domitory_bbs_pojo.iml" filepath="$PROJECT_DIR$/domitory_bbs_pojo/domitory_bbs_pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domitory_fiveB_parent.iml" filepath="$PROJECT_DIR$/domitory_fiveB_parent.iml" />
     </modules>
   </component>
 </project>

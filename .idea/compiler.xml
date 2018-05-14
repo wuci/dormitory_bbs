@@ -17,20 +17,6 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for domitory_bbs_pojo" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="domitory_bbs_pojo" />
-      </profile>
-      <profile default="false" name="Annotation profile for bbs_dormitory_util" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="bbs_dormitory_util" />
-      </profile>
       <profile default="false" name="Annotation profile for bbs_dormitory_service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -45,13 +31,27 @@
         <processorPath useClasspath="true" />
         <module name="bbs_dormitory_web" />
       </profile>
+      <profile default="false" name="Annotation profile for bbs_dormitory_pojo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bbs_dormitory_pojo" />
+      </profile>
+      <profile default="false" name="Annotation profile for bbs_dormitory_util" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bbs_dormitory_util" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bbs_dormitory" target="1.8" />
+      <module name="bbs_dormitory_pojo" target="1.8" />
       <module name="bbs_dormitory_service" target="1.8" />
       <module name="bbs_dormitory_util" target="1.8" />
       <module name="bbs_dormitory_web" target="1.8" />
-      <module name="domitory_bbs_pojo" target="1.8" />
-      <module name="domitory_fiveB_parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
