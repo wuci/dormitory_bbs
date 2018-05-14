@@ -16,31 +16,20 @@
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
         http://www.springframework.org/schema/task
-        http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+        http://www.springframework.org/schema/task/spring-task-3.0.xsd
+        ">
 
     <mvc:annotation-driven/>
-    <task:annotation-driven/>
-    <mvc:default-servlet-handler></mvc:default-servlet-handler>
     <context:component-scan base-package="com.bbs.domitory"/>
-    <bean
-            class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
-        <property name="messageConverters">
-            <util:list id="beanList">
-                <ref bean="mappingJacksonHttpMessageConverter"/>
-            </util:list>
-        </property>
+    <!-- [viewResolver] 配置附加工具，以及将后缀为vm的文件交给下面的Resolver处理-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
-    <bean id="mappingJacksonHttpMessageConverter"
-          class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
-        <property name="supportedMediaTypes">
-            <list>
-                <value>text/html;charset=UTF-8</value>
-            </list>
-        </property>
-    </bean>
-    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
-
+    <mvc:resources mapping="/css/**" location="/css"></mvc:resources>
+    <mvc:resources mapping="/js/**" location="/js"></mvc:resources>
     <bean id="multipartResolver"
           class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
           p:defaultEncoding="utf-8"/>
+
 </beans>

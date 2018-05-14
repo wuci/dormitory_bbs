@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+<<<<<<< HEAD
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for bbs_dormitory_service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bbs_dormitory_service" />
+      </profile>
+      <profile default="false" name="Annotation profile for bbs_dormitory_web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bbs_dormitory_web" />
+      </profile>
+      <profile default="false" name="Annotation profile for bbs_dormitory_pojo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bbs_dormitory_pojo" />
+      </profile>
+      <profile default="false" name="Annotation profile for bbs_dormitory_util" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bbs_dormitory_util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bbs_dormitory" target="1.8" />
+      <module name="bbs_dormitory_pojo" target="1.8" />
+      <module name="bbs_dormitory_service" target="1.8" />
+      <module name="bbs_dormitory_util" target="1.8" />
+      <module name="bbs_dormitory_web" target="1.8" />
+=======
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bbs_dormitory_dao" />
+        <module name="bbs_dormitory_pojo" />
+        <module name="bbs_dormitory_service" />
+        <module name="bbs_dormitory_util" />
+        <module name="bbs_dormitory_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bbs_dormitory" target="1.7" />
+      <module name="bbs_dormitory_dao" target="1.7" />
+      <module name="bbs_dormitory_pojo" target="1.7" />
+      <module name="bbs_dormitory_service" target="1.7" />
+      <module name="bbs_dormitory_util" target="1.7" />
+      <module name="bbs_dormitory_web" target="1.7" />
+>>>>>>> dev
+    </bytecodeTargetLevel>
+  </component>
+</project>
