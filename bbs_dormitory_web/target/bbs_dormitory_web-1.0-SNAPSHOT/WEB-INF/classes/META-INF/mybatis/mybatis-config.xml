@@ -8,4 +8,9 @@
         <setting name="useGeneratedKeys" value="true"/>
         <setting name="defaultExecutorType" value="REUSE"/>
     </settings>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="dialect" value="mysql"></property>
+        </plugin>
+    </plugins>
 </configuration>
