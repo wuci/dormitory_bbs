@@ -2,6 +2,7 @@ package com.bbs.domitory.controller.item;
 
 import com.bbs.domitory.pojo.TbItem;
 import com.bbs.domitory.service.ItemService;
+import com.bbs.dormitory.util.PropertiesUtil;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,8 +24,9 @@ public class ItemController {
 
     @RequestMapping(value = "/getItem/{itemId}", method = RequestMethod.GET)
     @ResponseBody
-    public TbItem getTbItemById(@PathVariable @Param("itemId") Long itemId) {
+    public String getTbItemById(@PathVariable @Param("itemId") Long itemId) {
 
-        return itemService.getItemById(itemId);
+//        return itemService.getItemById(itemId);
+        return PropertiesUtil.readParamValueByProperties("TEST_PARAM");
     }
 }
