@@ -37,4 +37,3 @@ out/*
 mvnw
 .DS_Store
 **/target/*
-.idea/*
