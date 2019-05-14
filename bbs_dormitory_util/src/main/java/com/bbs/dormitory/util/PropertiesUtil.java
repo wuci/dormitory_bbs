@@ -1,8 +1,6 @@
 package com.bbs.dormitory.util;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;

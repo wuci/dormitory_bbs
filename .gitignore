@@ -18,7 +18,6 @@ Servers
 **/build/
 *.eml
 *.bak
-.idea
 *.*~
 ecas
 *.iml
@@ -37,4 +36,5 @@ out/*
 *.launch
 mvnw
 .DS_Store
-bbs_dormitory_dao/target/*
+**/target/*
+.idea/*
